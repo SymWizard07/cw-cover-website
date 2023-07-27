@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Cade Whitley - Web Dev
+    </title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+
+    <!--
+            Palette:
+            #30332E
+            #89D2DC
+            #6564DB
+            #232ED1
+            #CFD11A
+        -->
+</head>
+
+<body>
+    <div id="title-card">
+        <div id="title-card-inner">
+            <div id="card-front">
+                <header id="name-header">
+                    <div class="leading-bar"></div>
+                    <div class="lagging-bar"></div>
+                    <h1>
+                        Cade Whitley
+                    </h1>
+                </header>
+                <header id="title-header">
+                    <div class="leading-bar"></div>
+                    <div class="lagging-bar"></div>
+                    <h2>
+                        Web Developer
+                    </h2>
+                </header>
+                <div class="word-scroll"></div>
+                <button class="card-flip-toggle" onclick="document.getElementById('title-card').setAttribute('flipped', true)">
+                    ⓘ
+                </button>
+            </div>
+            <div id="card-back">
+                <button class="card-flip-toggle" onclick="document.getElementById('title-card').setAttribute('flipped', false)">
+                    ⤾
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
