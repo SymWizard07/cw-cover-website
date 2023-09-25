@@ -38,12 +38,66 @@
                     </h2>
                 </header>
                 <div class="word-scroll"></div>
-                <button class="card-flip-toggle" onclick="document.getElementById('title-card').setAttribute('flipped', true)">
+                <button class="card-flip-toggle"
+                    onclick="document.getElementById('title-card').setAttribute('flipped', true)">
                     ⓘ
                 </button>
             </div>
             <div id="card-back">
-                <button class="card-flip-toggle" onclick="document.getElementById('title-card').setAttribute('flipped', false)">
+                <div id="flipped-content">
+                    <header id="contact-header">
+                        <div id="content-columns">
+                            <span>
+                                <h2>
+                                    About Me
+                                </h2>
+                                <div>
+                                    <p>
+                                        Hello! I'm Cade Whitley, an aspiring full-stack developer currently enrolled
+                                        in college at University of Central Arkansas.
+                                        Since a very young age, I've always been interested in how computers work. I
+                                        spend a lot of my time tinkering with code, or researching the latest tech in
+                                        computer
+                                        software. As every practical program you can possibly think of has been
+                                        published online, much of what I have coded has been games or tools to help
+                                        build games,
+                                        many of which you can view here!
+                                    </p>
+                                </div>
+                            </span>
+                            <span>
+                                <h2>
+                                    My Skills
+                                </h2>
+                                <div>
+                                    <p>
+                                        I am proficient in HTML, CSS, and JS and can design responsive web experiences.
+                                        I can set up a basic web app
+                                        using Node.js, and am familliar using JS modules. I have some experience in
+                                        Typescript. I can use Java, C++, and other OOP languages. I am familliar with
+                                        Python. I can write short batch scripts to
+                                        automate tasks. I am learning SQL in college, and understand basic database
+                                        design.
+                                        I know how to implement common algorithms for processing data, and can use and
+                                        understand big-O notation.
+                                    </p>
+                                </div>
+                            </span>
+                            <span>
+                                <h2>
+                                    Contact Me
+                                </h2>
+                                <div>
+                                    <p>
+                                        
+                                    </p>
+                                </div>
+                            </span>
+                        </div>
+                    </header>
+                </div>
+                <button class="card-flip-toggle"
+                    onclick="document.getElementById('title-card').setAttribute('flipped', false)">
                     ⤾
                 </button>
             </div>
